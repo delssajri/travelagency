@@ -1,0 +1,120 @@
+.choose-trip {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.choose-trip__item {
+    position: relative;
+
+    width: 370px;
+    padding: 392px 0 0;
+    margin-right: 30px;
+
+    border-radius: 10px;
+}
+
+.choose-trip__item:last-child {
+    margin-right: 0;
+}
+
+// .choose-trip__item::before {
+//     position: absolute;
+//     left: 10px;
+//     top:0;
+
+//     width: 100px;
+//     height: 30px;
+
+//     content: "";
+// }
+
+.choose-trip__item .choose--dubai::before {
+    position: absolute;
+    left: 10px;
+    top:0;
+
+    width: 100px;
+    height: 30px;
+
+    content: "";
+    background: #00b1ff url("../img/plane.png") no-repeat 50% 50%;
+}
+
+.choose--dubai {
+    background: #ffffff url("../img/dubai-pic.jpg") no-repeat 0 0;
+}
+
+.choose--nepal {
+    background: #ffffff url("../img/nepal-pic.jpg") no-repeat 0 0;
+}
+
+.choose--slovenia {
+    background: #ffffff url("../img/slovenia-pic.jpg") no-repeat 0 0;
+}
+
+.choose-trip__title {
+    display: block;
+    margin: 0;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 5px;
+
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.choose-trip__text {
+    display: block;
+    margin: 0;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 22px;
+
+    font-size: 16px;
+    line-height: 24px;
+    color: #999999;
+}
+
+.choose-trip__span {
+    display: block;
+    padding-top: 5px;
+
+    position: relative;
+
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.choose-trip__span:before {
+    position: absolute;
+    top: 5px;
+    left: 55px;
+
+    width: 70px;
+    height: 13px;
+
+    content: "\2605 \2605 \2605 \2605 \2605";
+
+    color: #ef5b5b;
+}
+
+.choose-trip__rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 17px 16px 17px;
+
+    border-top: 2px solid #cecece;
+}
+
+.choose-trip__link {
+    width: 100px;
+    padding: 4px 15px;
+
+    font-size: 14px;
+    line-height: 26px;
+}

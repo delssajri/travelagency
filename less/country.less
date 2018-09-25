@@ -1,0 +1,67 @@
+.country {
+    width: 280px;
+
+    border-bottom: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+    border-radius: 5px;
+}
+
+.country__title {
+    padding-top: 422px;
+    margin: 0;
+
+    text-align: center;
+
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.country__star {
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 15px;
+    margin: 0;
+
+    border-top: 2px solid #d6d6d6;
+}
+
+.country__star::before {
+    content: '\2605 \2605 \2605 \2605 \2605';
+
+    position: absolute;
+    left: 74px;
+    top: 20px;
+
+    color: #ef5b5b;
+}
+
+.country__rating {
+    display: block;
+    padding-top: 5px;
+    margin: 0;
+
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 800;
+}
+
+.contry--England {
+    background: url("../img/london.jpg") no-repeat 50% 0;
+}
+
+.contry--UAE {
+    background: url("../img/UAE.jpg") no-repeat 50% 0;
+}
+
+.contry--Swit {
+    background: url("../img/Swit.jpg") no-repeat 50% 0;
+}
+
+.country__link {
+    display: block;
+    width: 100px;
+    padding: 7px 0;
+}

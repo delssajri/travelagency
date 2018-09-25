@@ -1,0 +1,143 @@
+.places {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 870px;
+    padding-left: 320px;
+
+    text-align: none;
+
+}
+
+.places__list {
+    margin-top: 22px;
+    margin-bottom: 0;
+    padding: 0;   
+
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.places__title {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.places__list-item {
+    display: inline;
+    margin-right: 12px;
+
+    list-style-type: disc;
+
+    font-size: 16px;
+    line-height: 32px;
+    color: #888888;
+}
+
+.places__item:nth-child(1),
+.places__item:nth-child(2),
+.places__item:nth-child(3),
+.places__item:nth-child(4),
+.places__item:nth-child(5),
+.places__item:nth-child(6) {
+    margin-bottom: 125px;
+}
+
+.places__item {
+    position: relative;
+
+    width: 300px;
+    margin-right: 170px;
+    padding-left: 40px;
+}
+
+.places__item:nth-child(2),
+.places__item:nth-child(4),
+.places__item:nth-child(6) {
+    margin-right: 0;
+}
+
+.places--europe::before {
+    position: absolute;
+    top: 0;
+    left: -170px;
+
+    content: "";
+
+    width: 190px;
+    height: 190px;
+
+    border: 1px solid #888888;
+    background: url("../img/europe.png") no-repeat 50% 50%;
+}
+
+.places--asia::before {
+    position: absolute;
+    top: 0;
+    left: -170px;
+
+    content: "";
+
+    width: 190px;
+    height: 190px;
+
+    border: 1px solid #888888;
+    background: url("../img/Asia.png") no-repeat 50% 50%;
+}
+
+.places--au::before {
+    position: absolute;
+    top: 0;
+    left: -170px;
+
+    content: "";
+
+    width: 190px;
+    height: 190px;
+
+    border: 1px solid #888888;
+    background: url("../img/Au.png") no-repeat 50% 50%;
+}
+
+.places--africa::before {
+    position: absolute;
+    top: 0;
+    left: -170px;
+
+    content: "";
+
+    width: 190px;
+    height: 190px;
+
+    border: 1px solid #888888;
+    background: url("../img/Africa.png") no-repeat 50% 50%;
+}
+
+.places--namerica::before {
+    position: absolute;
+    top: 0;
+    left: -170px;
+
+    content: "";
+
+    width: 190px;
+    height: 190px;
+
+    border: 1px solid #888888;
+    background: url("../img/Namerica.png") no-repeat 50% 50%;
+}
+
+.places--samerica::before {
+    position: absolute;
+    top: 0;
+    left: -170px;
+
+    content: "";
+
+    width: 190px;
+    height: 190px;
+
+    border: 1px solid #888888;
+    background: url("../img/Samerica.png") no-repeat 50% 50%;
+}
